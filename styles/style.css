@@ -1,22 +1,114 @@
 :root {
     --background: black;
+    --white: white;
+    --pink: pink;
+    --lightgreen: lightgreen;
+    --lightblue: lightblue;
+    --lavender: lavender;
 }
 
 body {
     background-color: var(--background);
+    font-family: 'Pathway Extreme', sans-serif;
 }
 
 .nav-container {
     display: grid;
+    align-items: center;
 }
 
 .logo {
     height: 400px;
     width: 650px;
     grid-row: 1;
+    margin-left: 150px;
 }
 
 .nav {
-    text-decoration: none;
     grid-row: 1;
+    margin-right: 150px;
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.about:hover {
+    color: var(--pink);
+}
+
+.projects:hover {
+    color: var(--lightgreen);
+}
+
+.contact:hover {
+    color: var(--lightblue);
+}
+
+.container-1 {
+    height: 400px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1 {
+    background-color: var(--lavender);
+    font-size: 1.2em;
+    padding: 50px;
+    border-radius: 5px;
+    border: 5px solid pink;
+    margin-right: 25px;
+}
+
+.selfie {
+    margin-left: 25px;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 400px;
+    border: 5px solid pink;
+}
+
+.container-2 {
+    height: 400px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-2 {
+    background-color: var(--lavender);
+    font-size: 1.2em;
+    padding: 50px;
+    border-radius: 5px;
+    border: 5px solid pink;
+}
+
+.container-3 {
+    height: 400px;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-3 {
+    background-color: var(--lavender);
+    font-size: 1.2em;
+    padding: 50px;
+    border-radius: 5px;
+    border: 5px solid pink;
 }
