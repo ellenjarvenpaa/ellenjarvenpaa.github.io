@@ -123,6 +123,10 @@ a {
     font-weight: bold;
 }
 
+.link {
+    color: var(--background);
+}
+
 .link:hover {
     color: var(--pink);
 }
@@ -148,9 +152,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-.project {
+.project-header {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-text {
     font-size: 1.2em;
     text-align: center;
 }
@@ -171,6 +182,7 @@ a {
     color: black;
     font-size: 1.2em;
     text-align: center;
+    font-weight: bold;
 }
 
 .dropdown-content {
