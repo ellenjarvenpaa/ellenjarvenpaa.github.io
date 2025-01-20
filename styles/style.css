@@ -132,12 +132,23 @@ a {
 }
 
 .project-container-2 {
+    width: 100%;
     height: 400px;
-    width: 100%;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: var(--lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-container-3 {
+    width: 100%;
+    height: 400px;
+    background-color: var(--lightgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .project-2 {
